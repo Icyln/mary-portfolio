@@ -595,9 +595,8 @@ const Contact = () => {
               >
                 <FaGithub size={30} /> GitHub
               </a>
-            </div>
 
-              <a
+               <a
               href="tel:+959123456789"
               className="flex items-center gap-4 hover:text-teal-400 transition-colors"
               >
@@ -607,6 +606,7 @@ const Contact = () => {
             {/* Location */}
             <div className="flex items-center gap-4 hover:text-teal-400 transition-colors">
             <FaMapMarkerAlt size={30} /> Taunggyi, Myanmar
+            </div>
             </div>
           </motion.div>
         </div>
