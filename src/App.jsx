@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs, FaGitAlt, FaBars, FaTimes, FaLinkedin, FaGithub, FaPhone, FaMapMarkerAlt } from "react-icons/fa";
+import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs, FaGitAlt, FaBars, FaTimes, FaLinkedin, FaGithub, FaPhone, FaMapMarkerAlt, FaEnvelope } from "react-icons/fa";
 import { SiMongodb, SiMysql, SiExpress, SiTailwindcss } from "react-icons/si";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
