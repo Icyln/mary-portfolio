@@ -143,7 +143,7 @@ const Hero = () => (
         className="flex-1 flex justify-center md:justify-end"
       >
         <img
-          src="profile_3.png"
+          src="/profile_3.png"
           alt="Profile"
           className="w-48 sm:w-64 md:w-80 lg:w-96 aspect-square rounded-full object-cover shadow-2xl border-4 border-teal-500 hover:border-teal-400 transition-transform transform hover:scale-105 duration-500 ease-in-out"
         />
