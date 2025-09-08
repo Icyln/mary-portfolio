@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs, FaGitAlt, FaBars, FaTimes, FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa";
+import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs, FaGitAlt, FaBars, FaTimes, FaLinkedin, FaGithub, FaPhone, FaMapMarkerAlt } from "react-icons/fa";
 import { SiMongodb, SiMysql, SiExpress, SiTailwindcss } from "react-icons/si";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
@@ -595,6 +595,18 @@ const Contact = () => {
               >
                 <FaGithub size={30} /> GitHub
               </a>
+            </div>
+
+              <a
+              href="tel:+959123456789"
+              className="flex items-center gap-4 hover:text-teal-400 transition-colors"
+              >
+             <FaPhone size={30} /> +959444472964
+            </a>
+
+            {/* Location */}
+            <div className="flex items-center gap-4 hover:text-teal-400 transition-colors">
+            <FaMapMarkerAlt size={30} /> Taunggyi, Myanmar
             </div>
           </motion.div>
         </div>
