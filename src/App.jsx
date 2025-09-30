@@ -3,7 +3,6 @@ import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs, FaGitAlt, FaBars, FaTimes,
 import { SiMongodb, SiMysql, SiExpress, SiTailwindcss } from "react-icons/si";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
-import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
 // Swiper styles
@@ -353,27 +352,6 @@ const Skills = () => {
 // --- Projects Section ---
 const projectsData = [
   {
-<<<<<<< HEAD
-    title: "Bookverse",
-    description: "Web app that allows users to explore books, see trending titles, and submit reviews. Built with MERN stack.",
-    image: "bookverse.png", 
-    link: "https://github.com/Icyln/bookverse-app",
-    tags: ["React", "Node.js", "Express", "MongoDB", "Tailwind CSS"],
-  },
-  {
-    title: "ReelTime",
-    description: "Search movies, view details (release date, ratings, etc.) with a responsive UI using a third-party API.",
-    image: "reeltime.png", 
-    link: "https://github.com/Icyln/reeltime-movie",
-    tags: ["React", "API Integration", "Responsive Design", "CSS3"],
-  },
-  {
-    title: "Jumpstart E-commerce with Chatbot",
-    description: "E-commerce website integrated with an FAQ chatbot for 24/7 customer support and enhanced user experience.",
-    image: "chatbot.png", 
-    link: "https://github.com/Icyln/faq-chatbot",
-    tags: ["JavaScript", "HTML5", "CSS3", "Chatbot API"],
-=======
     title: "SkillMine",
     description: "A Learning Management System website, mainly focusing on design and frontend.",
     image: "learning.jpg", 
@@ -414,7 +392,6 @@ const projectsData = [
     image: "porfolio.jpg", 
     link: "https://github.com/Icyln/my-portfolio",
     tags: ["Frontend", "React", "Tailwind CSS", "JavaScript", "Formspree"],
->>>>>>> master
   },
 ];
 
