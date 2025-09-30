@@ -353,6 +353,7 @@ const Skills = () => {
 // --- Projects Section ---
 const projectsData = [
   {
+<<<<<<< HEAD
     title: "Bookverse",
     description: "Web app that allows users to explore books, see trending titles, and submit reviews. Built with MERN stack.",
     image: "bookverse.png", 
@@ -372,6 +373,48 @@ const projectsData = [
     image: "chatbot.png", 
     link: "https://github.com/Icyln/faq-chatbot",
     tags: ["JavaScript", "HTML5", "CSS3", "Chatbot API"],
+=======
+    title: "SkillMine",
+    description: "A Learning Management System website, mainly focusing on design and frontend.",
+    image: "learning.jpg", 
+    link: "https://github.com/Icyln/learning-website",
+    tags: ["Frontend", "Responsive Design", "React", "Tailwind CSS", "JavaScript", "HTML"],
+  },
+  {
+    title: "Book Library",
+    description: "A Library App where users can sign up, log in, search, add, update, and delete books.",
+    image: "book1.jpg", 
+    link: "https://github.com/Icyln/library-mern",
+    tags: ["Full Stack", "React", "Node.js", "Express", "MongoDB", "Tailwind CSS"],
+  },
+  {
+    title: "Blog App",
+    description: "A full stack Blog App where users can sign up, log in, create posts, and update them.",
+    image: "blog.jpg", 
+    link: "https://github.com/Icyln/mern-blog",
+    tags: ["Full Stack", "React", "Tailwind CSS", "Node.js", "Express", "MongoDB"],
+  },
+  {
+    title: "ReelTime",
+    description: "A movie info app where users can see trending movies, search specific ones, add reviews.",
+    image: "reeltime.png", 
+    link: "https://github.com/Icyln/reeltime-movie",
+    tags: ["Frontend", "TMDB API", "React", "Tailwind CSS", "JavaScript", "HTML"],
+  },
+  {
+    title: "DuBu Martial Arts",
+    description: "A branded, multi-page website for DuBo Martial Arts, supported with realistic content.",
+    image: "dubu.jpg", 
+    link: "https://github.com/Icyln/DuBu",
+    tags: ["Frontend", "HTML5", "CSS3", "JavaScript", "Web Design"],
+  },
+  {
+    title: "Portfolio",
+    description: "A personal porfolio website deployed on vercel with clean user interface.",
+    image: "porfolio.jpg", 
+    link: "https://github.com/Icyln/my-portfolio",
+    tags: ["Frontend", "React", "Tailwind CSS", "JavaScript", "Formspree"],
+>>>>>>> master
   },
 ];
 
