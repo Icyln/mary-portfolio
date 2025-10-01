@@ -120,10 +120,11 @@ const Hero = () => (
           <motion.a
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            href="#contact"
+            href="https://youtu.be/NlbqYo22CNY?feature=shared"
+            target="_blank"
             className="px-6 py-3 bg-teal-500 text-gray-900 font-bold rounded-full shadow-lg hover:bg-teal-400 transition-all text-center text-lg"
           >
-            Contact Me
+            View Introduction Video
           </motion.a>
           <motion.a
             whileHover={{ scale: 1.05 }}
